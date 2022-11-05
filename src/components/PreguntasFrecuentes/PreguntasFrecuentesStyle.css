@@ -23,3 +23,18 @@
     width: 80%;
 
 }
+
+.visorPdf {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.visorPdf:hover {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.tituloPop3 {
+    color: var(--secondary);
+    font-size: 22px;
+}

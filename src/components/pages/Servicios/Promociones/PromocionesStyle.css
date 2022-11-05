@@ -1,0 +1,302 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.card-promociones {
+    position: relative;
+    width: 350px;
+    height: 530px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background-color: rgba(253, 253, 253, 0.952);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.35s ease-in-out;
+    flex-direction: column;
+}
+
+@media (max-width: 400px) {
+    .card-promociones {
+        height: 580px;
+    }
+
+    .list-style-promo{
+        position:relative;
+        margin-left: -20px !important;
+        padding-right: 10px;
+        }
+}
+
+.card-promociones:hover {
+    cursor: pointer;
+    opacity: 90%;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.59); 
+}
+
+.card-promociones2 {
+    position: relative;
+    width: 350px;
+    height: 560px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background-color: rgba(253, 253, 253, 0.952);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.35s ease-in-out;
+    flex-direction: column;
+}
+
+.card-promociones2:hover {
+    cursor: pointer;
+    opacity: 90%;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.59); 
+}
+
+.letrasCards{
+    margin-top: 50px;
+}
+
+.content-promociones {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.content-promociones h3 {
+    font-size: 1.8em;
+    color: black;
+    z-index: 1;
+}
+
+.content-promociones p {
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
+}
+
+.content-promociones a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.container .card-promociones .content-promociones a {
+    position: absolute;
+    display: block;
+    padding: 0px;
+    margin-top: 15px;
+    background: inherit;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container .card-promociones .content-promociones a:hover {
+    color: white;
+}
+
+.cont-precio {
+    height: 150px;
+    color: #ffffff;
+    background: #54a5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cont-tachado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-tachado .tachado {
+    position: relative;
+    font-size: 18px;
+    margin-right: 10px;
+    opacity: .7;
+}
+
+.cont-tachado .tachado::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    background: #ffffff;
+}
+
+.cont-tachado .tachado .num_decimal {
+    position: relative;
+    bottom: 3px;
+}
+
+.cont-tachado .porcentaje {
+    background: rgba(255, 255, 255, .3);
+    font-weight: 800;
+    font-size: 16px;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+.valor {
+    text-align: center;
+}
+
+.valor .monedaPesos {
+    font-size: 36px;
+}
+
+.valor .total {
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.valor .total {
+    font-size: 55px;
+}
+
+.valor .mes {
+    font-size: 14px;
+}
+
+.moneda {
+    text-align: center;
+    margin: 0;
+}
+
+.fondoCardPromo {
+    background-color: var(--tertiary);
+}
+
+.list-style-promo{
+    position:relative;
+    margin-left: -30px;
+    }
+    
+    .list-style-promo li{
+    position:relative;
+    font-size:16px;
+    line-height:26px;
+    color: #222222;
+    font-weight:400;
+    padding-left:30px;
+    margin-bottom: 12px;
+    }
+    
+    .list-style-promo li:before {
+    content: "\f058";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: block;
+    font-size: 18px;
+    padding: 0px;
+    color: #0a962d;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1.6;
+    font-family: "Font Awesome 5 Free";
+    }
+
+    .list-style-promo .sinPromo:before {
+        content: "\f057";
+        position: absolute;
+        left: 0;
+        top: 0px;
+        display: block;
+        font-size: 18px;
+        padding: 0px;
+        color: #db1f1f !important;
+        font-weight: 600;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1.6;
+        font-family: "Font Awesome 5 Free";
+        }
+    
+    .list-style-promo li:hover{
+    color: #44bce2;
+    cursor: pointer;
+    }
+
+
+    .btnContactoPromo {
+    padding: 15px 25px;
+    border-radius: 15px;
+    color: var(--tertiary);
+    z-index: 1;
+    background: #54a5ff;
+    position: relative;
+    font-weight: 500;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+}
+
+.btnContactoPromo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: var(--tertiary);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+
+.btnContactoPromo:hover {
+    color: #e8e8e8;
+}
+
+.btnContactoPromo:hover::before {
+    width: 100%;
+}

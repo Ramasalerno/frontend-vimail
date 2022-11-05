@@ -1,0 +1,16 @@
+.postFooter {
+    background-color: #2b71ba;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.footerFinal {
+    background-color: #332846;
+    width: 100%;
+}

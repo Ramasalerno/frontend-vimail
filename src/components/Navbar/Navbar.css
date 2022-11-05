@@ -1,0 +1,131 @@
+:root {
+    --primary: #2b71ba;
+    --secondary: #9d9e9e;
+    --tertiary: #332846;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+#navbarScrollingDropdown {
+    color: var(--tertiary);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.barra {
+  border-bottom: 1px solid var(--primary);
+}
+
+
+#navbarScrollingDropdown:hover{
+  transition: all 0.5s ease-out;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.linkeado {
+  text-decoration: none;
+  color: var(--tertiary);
+  align-content: flex-start;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.linkeado {
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  color: var(--tertiary);
+  position: relative;
+  transition: .8s ease;
+  text-decoration: none;
+}
+
+.linkeado::before, .servicios::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #2b71ba;
+  transition: .8s ease;
+}
+
+.linkeado:hover{
+  transition-delay: .5s;
+  text-decoration: none;
+}
+
+.linkeado:hover::before {
+  width: 100%;
+}
+
+.linkeado::after, .servicios::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  transition: .4s ease;
+  z-index: -1;
+}
+
+
+
+.dropdown-menu.show {
+    background: #212529;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background: var(--primary) !important;
+    overflow: hidden;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler.collapsed {
+    color: white;
+}
+
+.element.style {
+    height: 100vh;
+}
+
+.setLogo {
+    width: 90%;
+}
+
+  body.swal2-shown > [aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(10px);
+  }
+
+  .barra{
+    background-color: #FFFF!important;
+    color: black!important;
+  }
+
+  .container-fluid {
+      flex-direction: row !important;
+  }
+
+  @media (min-width: 992px) {
+
+    .colt {
+        display: flex!important;
+        flex-basis: auto!important;
+        flex-direction: column!important;
+        align-content: flex-end!important;
+        flex-wrap: wrap!important;
+      }
+  }

@@ -14,6 +14,7 @@ import { Promociones } from './components/pages/Servicios/Promociones/Promocione
 import { SobreNosotros } from './components/pages/SobreNosotros/SobreNosotros';
 import { Servicios } from './components/pages/Servicios/Servicios/Servicios';
 import { PreNavbar } from './components/PreNavbar/PreNavbar';
+/* import { PreNavbarLinks } from './components/PreNavbarLinks/PreNavbarLinks'; */
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <BrowserRouter>
     <ScrollToTop>
       <PreNavbar/>
+      {/* <PreNavbarLinks/> */}
         <Barra1/>
             <Routes>
               <Route path="/" element= {<HomePage/> }/>

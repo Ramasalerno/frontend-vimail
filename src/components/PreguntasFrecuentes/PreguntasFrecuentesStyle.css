@@ -21,7 +21,6 @@
 .pregFrec {
     text-align: justify !important;
     width: 80%;
-
 }
 
 .visorPdf {
@@ -38,3 +37,25 @@
     color: var(--secondary);
     font-size: 22px;
 }
+
+
+@media (max-width: 660px) {
+    .textFrec {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .pregFrec {
+        text-align: justify !important;
+        width: 95%;
+    }
+}
+
+.flexPreguntasTitulo {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--primary);
+    line-height: 48px;
+    border-bottom: 3px solid var(--secondary);
+  }

@@ -4,7 +4,7 @@ import "./PreguntasFrecuentesStyle.css"
 export const PreguntasFrecuentes = () => {
   return (
     <div className='flexPreguntas'>
-        <h2 className='flexMarcasTitulo'>Preguntas frecuentes</h2>
+        <h2 className='flexPreguntasTitulo'>Preguntas frecuentes</h2>
                         <div className='pregFrec'>
 
                             <div className='pregFrecInterno'>

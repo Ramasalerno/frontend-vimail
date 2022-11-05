@@ -30,6 +30,9 @@ export const FlexMarcas = () => {
               <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-marcasgrilla/samsung.gif"} alt="Imagen SAMSUNG" height="100" width="150"  />
             </div>
             <div  className="slide">
+              <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-marcasgrilla/fortinet.png"} alt="Imagen FORTINET" height="100" width="150"/>
+            </div>
+            <div  className="slide">
               <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-marcasgrilla/ubiquiti.gif"} alt="Imagen UBIQUITI" height="100" width="150"  />
             </div>
             <div  className="slide">
@@ -52,6 +55,10 @@ export const FlexMarcas = () => {
             </div>
             <div  className="slide">
               <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-marcasgrilla/hpe.gif"} alt="Imagen HPE" height="100" width="150"/>
+            </div>
+
+            <div  className="slide">
+              <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-marcasgrilla/fortinet.png"} alt="Imagen FORTINET" height="100" width="150"/>
             </div>
         </div>
       </div>

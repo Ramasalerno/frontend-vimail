@@ -1,17 +1,5 @@
-.pregFrec {
-    /* border-bottom: 1px solid black; */
-   /*  width: 20%; */
-    /* border-radius: 20px; */
-    /* background-color: #f2a11e2c; */
-}
-
-/* .colapsados {
-    width: 150% !important;
-} */
-
-
 .imagenFont3:before {
-    content: "\f111";
+    content: "\f196";
     font-size: 20px;
     margin-right: 8px;
     color: #f2a11e;
@@ -20,4 +8,18 @@
 
 .textFrec {
     font-size: 25px;
+    text-align: left;
+}
+
+.flexPreguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pregFrec {
+    text-align: justify !important;
+    width: 80%;
+
 }

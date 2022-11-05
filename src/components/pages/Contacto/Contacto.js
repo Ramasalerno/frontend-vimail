@@ -21,8 +21,8 @@ return (
         <div className="container">
             <div className="heading text-center">
                 <h2>Contactanos</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    <br/>incididunt ut labore et dolore magna aliqua.</p>
+                <p>Si tiene alguna pregunta, no dude en ponerse en contacto con nosotros, nos comunicaremos a la brevedad!
+                    <br/>Complete sus datos en el formulario de contacto.</p>
             </div>
             <div className="row">
                 <div className="col-md-5 centrarTextos">

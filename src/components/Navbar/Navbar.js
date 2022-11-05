@@ -14,7 +14,7 @@ export default class Barra1 extends Component {
 
               <Navbar.Brand href="/">
                 <Link to="/">
-                <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-logo/logo-vimail.png"} alt="Logo VIMAIL" className='setLogo'></img>
+                <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-logo/logo-vimail2.png"} alt="Logo VIMAIL" className='setLogo'></img>
                 </Link>
               </Navbar.Brand>
 

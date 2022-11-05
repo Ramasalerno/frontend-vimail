@@ -1,7 +1,6 @@
 :root {
-    --primary: #2b71ba;
-    --secondary: #9d9e9e;
-    --tertiary: #332846;
+    --primary: #222;
+    --secondary: #f2a11e;
 }
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:wght@600&display=swap');

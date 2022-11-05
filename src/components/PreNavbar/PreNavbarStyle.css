@@ -1,0 +1,27 @@
+.preNav {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* padding-top: 15px; */
+}
+
+.imagenFont:before {
+    content: "\f075";
+    font-size: 20px;
+    margin-right: 8px;
+    color: #f2a11e;
+    font-family: "Font Awesome 5 Free";
+    }
+
+
+.imagenFont2:before {
+        content: "\f0e0";
+        font-size: 20px;
+        margin-right: 8px;
+        color: #f2a11e;
+        font-family: "Font Awesome 5 Free";
+}

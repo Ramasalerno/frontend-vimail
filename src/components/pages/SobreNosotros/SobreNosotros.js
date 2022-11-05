@@ -24,7 +24,7 @@ export const SobreNosotros = () => {
 
                 <div className="text">
                   <p>
-                    La propuesta de <b>DVG</b> reúne los servicios de consultoría e implementación en virtualización de servidores y Hosting para Email y Sitios Web.
+                    La propuesta de <b>VIMAIL</b> reúne los servicios de consultoría e implementación en virtualización de servidores y Hosting para Email y Sitios Web.
                   </p>
 
                   <p>

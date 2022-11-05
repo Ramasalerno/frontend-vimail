@@ -13,12 +13,14 @@ import { VirtualizacionDeServidores } from './components/pages/Servicios/Virtual
 import { Promociones } from './components/pages/Servicios/Promociones/Promociones';
 import { SobreNosotros } from './components/pages/SobreNosotros/SobreNosotros';
 import { Servicios } from './components/pages/Servicios/Servicios/Servicios';
+import { PreNavbar } from './components/PreNavbar/PreNavbar';
 
 function App() {
   return (
 
     <BrowserRouter>
     <ScrollToTop>
+      <PreNavbar/>
         <Barra1/>
             <Routes>
               <Route path="/" element= {<HomePage/> }/>

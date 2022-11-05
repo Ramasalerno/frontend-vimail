@@ -123,7 +123,7 @@ top: 0px;
 display: block;
 font-size: 18px;
 padding: 0px;
-color: #2b71ba;
+color: var(--secondary);
 font-weight: 600;
 font-style: normal;
 font-variant: normal;
@@ -133,7 +133,7 @@ font-family: "Font Awesome 5 Free";
 }
 
 .list-style-one li:hover{
-color: #44bce2;
+color: var(--secondary);
 cursor: pointer;
 }
 
@@ -209,7 +209,7 @@ cursor: pointer;
 }
     
 .list-style-three li:hover{
-    color: #44bce2;
+    color: var(--secondary);
     cursor: pointer;
 }
 
@@ -245,15 +245,15 @@ padding: 10px 30px;
 font-weight: 600;
 overflow: hidden;
 letter-spacing: 0.02em;
-background-color: #2b71ba;
+background-color: var(--primary);
 border-radius: 20px;
 text-decoration: none;
 }
 
 .btn-style-one:hover{
-background-color: white;
-color: #2b71ba;
-outline: 1px solid #2b71ba;
+background-color: var(--secondary);
+color: white;
+outline: 1px solid var(--secondary);
 transition: 1s ease all;
 }
 

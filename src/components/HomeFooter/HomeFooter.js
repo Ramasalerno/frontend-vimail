@@ -1,12 +1,12 @@
 import React from 'react'
-import { FooterMapa } from "../Footer/FooterMapa"
+/* import { FooterMapa } from "../Footer/FooterMapa" */
 import { FooterNew } from '../Footer/FooterNew'
 import { PostFooter } from '../PostFooter/PostFooter'
 
 export const HomeFooter = () => {
   return (
     <div>
-        <FooterMapa/>
+        {/* <FooterMapa/> */}
         <FooterNew/>
         <PostFooter/>
     </div>

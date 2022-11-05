@@ -41,7 +41,7 @@ footer p {
 	text-decoration:none;
 }
 
-.footer_ul_amrc li a:hover{ color:#5525a7;}
+.footer_ul_amrc li a:hover{ color:var(--secondary);}
 
 .fleft { float:left;}
 
@@ -72,16 +72,7 @@ footer p {
 .foote_bottom_ul_amrc li { display:inline;}
 
 .foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
- 
-/* section {
-	width: 100%;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;  
-	z-index: -10;
-  } */
-  
+
 
   @media (min-width: 768px) {
 	.logoFooterNew{
@@ -98,3 +89,7 @@ footer p {
 		margin-left: 35%;
 	}
   }
+
+.pt2 {
+	color: var(--secondary) !important;
+}

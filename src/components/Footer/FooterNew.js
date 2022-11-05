@@ -11,13 +11,13 @@ export const FooterNew = () => {
             <div className="row rowFooter">
 
             <div className=" col-sm-4 col-md col-sm-4  col-12 col">
-                        <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-logo/logo-dvg-footer.gif"} alt="Logo DVG" className='logoFooterNew'></img> 
+                        <img src={process.env.PUBLIC_URL + "/imagenes/imagenes-logo/logo-vimail.png"} alt="Logo DVG" className='logoFooterNew'></img> 
                     </div>
                 <div className=" col-sm-4 col-md col-sm-4  col-12 col">
                     <h5 className="headin5_amrc col_white_amrc pt2">Contactanos</h5>
-                    <p><i className="fa fa-location-arrow"></i> Adolfo Bellocq 4184 - Olivos <br/> Buenos Aires - Argentina </p>
-                    <p><i className="fa fa-phone"></i>  +5411 4717 3426 </p>
-                    <p><i className="fa fa fa-envelope"></i> <a href="mailto:info@dvg.com.ar" className='mailFooter'>info@dvg.com.ar</a></p>
+                    <p><i className="fa fa-location-arrow"></i> Buenos Aires - Argentina </p>
+                    <p><i className="fa fa-phone"></i>  +54(011)6841-3870 </p>
+                    <p><i className="fa fa fa-envelope"></i> <a href="mailto:info@vimail.com.ar" className='mailFooter'>info@vimail.com.ar</a></p>
                 </div>
                 
 
@@ -37,7 +37,6 @@ export const FooterNew = () => {
 
             <div className=" col-sm-4 col-md  col-6 col">
                 <h5 className="headin5_amrc col_white_amrc pt2">Sobre Nosotros</h5>
-
                 <ul className="footer_ul_amrc">
                 <li><Link to="contacto">Contacto</Link></li>
                 <li><Link to="nosotros">Nosotros</Link></li>

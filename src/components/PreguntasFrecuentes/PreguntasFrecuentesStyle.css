@@ -1,0 +1,23 @@
+.pregFrec {
+    /* border-bottom: 1px solid black; */
+   /*  width: 20%; */
+    /* border-radius: 20px; */
+    /* background-color: #f2a11e2c; */
+}
+
+/* .colapsados {
+    width: 150% !important;
+} */
+
+
+.imagenFont3:before {
+    content: "\f111";
+    font-size: 20px;
+    margin-right: 8px;
+    color: #f2a11e;
+    font-family: "Font Awesome 5 Free";
+}
+
+.textFrec {
+    font-size: 25px;
+}

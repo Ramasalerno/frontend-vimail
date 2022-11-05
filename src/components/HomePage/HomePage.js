@@ -8,6 +8,7 @@ import { InfoHome } from '../InfoHome/InfoHome';
 import { BannerBody } from '../BannerBody/BannerBody';
 import { ServiciosCard } from '../ServiciosCard/ServiciosCard';
 import { Bienvenida } from '../Bienvenida/Bienvenida';
+import { PreguntasFrecuentes } from '../PreguntasFrecuentes/PreguntasFrecuentes';
 
 export const HomePage = () => {
   return (
@@ -18,8 +19,8 @@ export const HomePage = () => {
         <InfoHome/>
         <BannerBody/>
         <ServiciosCard/>
-
         <BannerBodySoporte/>
+        <PreguntasFrecuentes/>
         <FlexMarcas/>
     </>
   )

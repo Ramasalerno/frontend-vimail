@@ -28,7 +28,7 @@ return (
                 <div className="col-md-5 centrarTextos">
                     <div className="title">
                         <h3>Detalles de contacto</h3>
-                        <p>Adolfo Bellocq 4184 - Olivos <br/>Buenos Aires - Argentina </p>
+                        <p>Buenos Aires - Argentina </p>
                     </div>
 
                     <div className="content">
@@ -37,13 +37,13 @@ return (
                                 <i className="fas fa-mobile-alt"></i>
                                 <h4 className="d-inline-block">Telefono :
                                     <br/>
-                                    <span>+54 11 4717 3426</span></h4>
+                                    <span>+54(011)6841-3870</span></h4>
                             </div>
                             <div className="info">
                                 <i className="far fa-envelope"></i>
                                 <h4 className="d-inline-block">Email :
                                     <br/>
-                                    <span>info@dvg.com.ar</span></h4>
+                                    <span>info@vimail.com.ar</span></h4>
                             </div>
                         </div>
                     </div>

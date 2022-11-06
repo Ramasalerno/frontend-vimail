@@ -6,17 +6,27 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 12px;
+    height: 15px;
+}
+
+.preNavLinks a {
+    text-decoration: none;
+    color: #f2a11e;
 }
 
 .imagenFont4:before {
-    content: "\f054";
-    font-size: 10px;
+    content: "\f138";
+    font-size: 15px;
     margin-right: 8px;
     color: #f2a11e;
     font-family: "Font Awesome 5 Free";
-    }
+}
 
-    .linkeado2 {
-        font-size: 12px !important;
-    }
+.imagenFont4 {
+    margin-bottom: 0px;
+    margin-top: 0px !important;
+}
+
+.linkeado2 {
+        font-size: 10px !important;
+}

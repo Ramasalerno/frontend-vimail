@@ -1,13 +1,21 @@
 import React from 'react'
 import "./PreNavbarLinksStyle.css"
-import { Link } from 'react-router-dom'
 
 export const PreNavbarLinks = () => {
   return (
     <div className='preNavLinks'>
-      <Link to="/" className='linkeado linkeado2' id="navbarScrollingDropdown">Email Corporativo</Link>
-      <Link to="/" className='linkeado linkeado2' id="navbarScrollingDropdown"><p className='imagenFont4'></p>Webmail</Link>
-      <Link to="/" className='linkeado linkeado2' id="navbarScrollingDropdown">Control Panel</Link>
+
+      <div className='linkeado linkeado2' id="navbarScrollingDropdown">
+        <a href="https://mail.vimail.com.ar/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.vimail.com.ar%2fowa%2f" target="_blank" rel="noreferrer"><p className='imagenFont4'>Email Corporativo</p></a>
+      </div>
+
+      <div className='linkeado linkeado2' id="navbarScrollingDropdown">
+        <a href="https://panel.vimail.com.ar/webmail/" target="_blank" rel="noreferrer"><p className='imagenFont4'>Webmail</p></a>
+      </div>
+
+      <div className='linkeado linkeado2' id="navbarScrollingDropdown">
+        <a href="https://panel.vimail.com.ar/login/" target="_blank" rel="noreferrer"><p className='imagenFont4'>Control Panel</p></a>
+      </div>
     </div>
   )
 }

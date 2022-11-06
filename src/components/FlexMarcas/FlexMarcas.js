@@ -5,7 +5,7 @@ export const FlexMarcas = () => {
   return (
 
     <div>
-      <h2 className='flexMarcasTitulo mb-5'> Trabajamos con las mejores marcas</h2>
+      <h2 className='flexMarcasTitulo mb-5 mt-5'> Trabajamos con las mejores marcas</h2>
       <div  className="slider">
         <div  className="slide-track">
             <div  className="slide">

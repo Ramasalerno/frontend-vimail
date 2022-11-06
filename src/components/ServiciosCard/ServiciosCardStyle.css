@@ -183,3 +183,10 @@
 .container .card .content a:hover {
     color: white !important;
 }
+
+
+@media (max-width: 600px) {
+    .cardsNoMobile {
+        display: none;
+    }
+}

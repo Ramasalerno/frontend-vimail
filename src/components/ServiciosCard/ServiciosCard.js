@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export const ServiciosCard = () => {
   return (
-    <>
+    <div className='cardsNoMobile'>
     <h2 className='flexMarcasTitulo mt-3'> Nuestros servicios</h2>
     <AnimationOnScroll animateIn="animate__fadeIn">
         <div className='container' id='servicios'>
@@ -113,6 +113,6 @@ export const ServiciosCard = () => {
     </div>
     </AnimationOnScroll>
 
-    </>
+    </div>
 )
 }

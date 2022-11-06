@@ -24,11 +24,7 @@ export default class Barra1 extends Component {
                 <Link to="/" className='linkeado' id="navbarScrollingDropdown">Home</Link>
                 <Link to="/servicios" className='linkeado' id="navbarScrollingDropdown">Servicios</Link>
                 <Link to="/nosotros" className='linkeado' id="navbarScrollingDropdown">Nosotros</Link>
-                <Link to="/contacto" className='linkeado' id="navbarScrollingDropdown">Email Corporativo</Link>
-                {/* <Link to="/contacto" className='linkeado' id="navbarScrollingDropdown">Webmail</Link>
-                <Link to="/contacto" className='linkeado' id="navbarScrollingDropdown">Control Panel</Link>
-                <Link to="/contacto" className='linkeado' id="navbarScrollingDropdown">Contacto</Link> */}
-                
+                <Link to="/contacto" className='linkeado' id="navbarScrollingDropdown">Contacto</Link>
                 </Nav>
               </Navbar.Collapse>
           </Container>

@@ -13,7 +13,7 @@ export const Carrousel = () => {
 					<Link to="/">
 						<img
 							className="d-block w-100"
-							src={"https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/main/testVi/bannerWebVi1.png"}
+							src={"/imagenes/banner/bannerSlider1.png"}
 							alt="imagen slider"
 						/>
 					</Link>
@@ -23,7 +23,7 @@ export const Carrousel = () => {
 					<Link to="/">
 						<img
 							className="d-block w-100"
-							src={"https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/main/testVi/bannerWebVi2.png"}
+							src={"/imagenes/banner/bannerSlider2.png"}
 							alt="imagen slider"
 						/>
 					</Link>
@@ -33,7 +33,7 @@ export const Carrousel = () => {
 					<Link to="/">
 						<img
 							className="d-block w-100"
-							src={"https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/main/testVi/bannerWebVi3.png"}
+							src={"/imagenes/banner/bannerSlider3.png"}
 							alt="imagen slider"
 						/>
 					</Link>

@@ -21,10 +21,10 @@ export default class Barra1 extends Component {
               <Navbar.Toggle aria-controls="navbarScroll" />
               <Navbar.Collapse id="navbarScroll" className='colt'>
                 <Nav className="me-auto my-2 my-lg-0"style={{ height: '100%' }}>
-                <Link to="/" className='linkeado' id="navbarScrollingDropdown">Home</Link>
-                <Link to="/servicios" className='linkeado' id="navbarScrollingDropdown">Servicios</Link>
-                <Link to="/nosotros" className='linkeado' id="navbarScrollingDropdown">Nosotros</Link>
-                <Link to="/contacto" className='linkeado' id="navbarScrollingDropdown">Contacto</Link>
+                <Link to="/" className='linkeado'>Home</Link>
+                <Link to="/servicios" className='linkeado'>Servicios</Link>
+                <Link to="/nosotros" className='linkeado'>Nosotros</Link>
+                <Link to="/contacto" className='linkeado'>Contacto</Link>
                 </Nav>
               </Navbar.Collapse>
           </Container>

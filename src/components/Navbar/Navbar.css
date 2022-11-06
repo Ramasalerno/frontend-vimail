@@ -54,7 +54,7 @@
   z-index: -1;
 }
 
-#navbarScrollingDropdown, .servicios{
+.servicios{
   display: flex;
   align-items: center;
   font-size: 15px;
@@ -113,9 +113,6 @@
   }
   .barra {
     border-bottom: 2px solid yellow;
-  }
-  #navbarScrollingDropdown{
-    padding: 1rem 0.6rem;
   }
 }
 

@@ -10,10 +10,11 @@ import { Hosting } from './components/pages/Servicios/Hosting/Hosting';
 import { ServidoresDedicados } from './components/pages/Servicios/ServidoresDedicados/ServidoresDedicados';
 import { SoporteCorporativo } from './components/pages/Servicios/SoporteCorporativo/SoporteCorporativo';
 import { VirtualizacionDeServidores } from './components/pages/Servicios/VirtualizacionDeServidores/VirtualizacionDeServidores';
-import { Promociones } from './components/pages/Servicios/Promociones/Promociones';
+import { Fortinet, Promociones } from './components/pages/Servicios/Fortinet/Fortinet';
 import { SobreNosotros } from './components/pages/SobreNosotros/SobreNosotros';
 import { Servicios } from './components/pages/Servicios/Servicios/Servicios';
 import { PreNavbar } from './components/PreNavbar/PreNavbar';
+import { Redes } from './components/pages/Servicios/Redes/Redes';
 import { PreNavbarLinks } from './components/PreNavbarLinks/PreNavbarLinks';
 
 function App() {
@@ -35,8 +36,10 @@ function App() {
               <Route path="/servidoresDedicados" element= {<ServidoresDedicados/> }/>
               <Route path="/soporteCorporativo" element= {<SoporteCorporativo/> }/>
               <Route path="/virtualizacionServidores" element= {<VirtualizacionDeServidores/> }/>
-              <Route path="/promociones" element= {<Promociones/> }/>
+              <Route path="/fortinet" element= {<Fortinet/> }/>
               <Route path="/servicios" element= {<Servicios/> }/>
+              <Route path="/redes" element= {<Redes/> }/>
+
             </Routes>
         <HomeFooter/>
         </ScrollToTop>

@@ -43,14 +43,14 @@ export const ServiciosCard = () => {
 
             <div className='card'>
                     <div className='content'>
-                        <img src={"/imagenes/servicios/servicios-promociones.jpg"} alt='img promociones'/>
+                        <img src={"/imagenes/servicios/fortinet.png"} alt='img promociones'/>
                         <div className='letrasCards'>
-                            <h3>Promociones</h3>
+                            <h3>Fortinet</h3>
                             <button className="learn-more mt-4">
                                 <span className="circle" aria-hidden="true">
                                 <span className="icon arrow"></span>
                                 </span>
-                                <Link to="/promociones" className="button-text" >Mas info!</Link>
+                                <Link to="/fortinet" className="button-text" >Mas info!</Link>
                             </button>
                         </div>
                     </div>
@@ -64,14 +64,14 @@ export const ServiciosCard = () => {
     <div className='container'>
         <div className='card'>
                     <div className='content'>
-                        <img src={"/imagenes/servicios/servicios-soporte.jpg"} alt='img soporte'/>
+                        <img src={"/imagenes/servicios/redes.png"} alt='img soporte'/>
                         <div className='letrasCards'>
-                            <h3>Soporte Corporativo</h3>
+                            <h3>Redes informaticas y cableado</h3>
                             <button className="learn-more mt-2">
                                 <span className="circle" aria-hidden="true">
                                 <span className="icon arrow"></span>
                                 </span>
-                                <Link to="/soporteCorporativo" className="button-text" >Mas info!</Link>
+                                <Link to="/redes" className="button-text" >Mas info!</Link>
                             </button>
                         </div>
                     </div>
